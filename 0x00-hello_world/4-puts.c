@@ -1,7 +1,6 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
-char tsi[]="Programming is like building a multilingual puzzle\n";
-put(tsi);
-return 0;
+put("\"Programming is like building a multilingual puzzle");
+return (0);
 }
