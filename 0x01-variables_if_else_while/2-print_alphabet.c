@@ -5,12 +5,12 @@
 */
 int main(void)
 {
-char tsi = 'a';
+char ch = 'a';
 while (a <= z)
 {
-putchar(tsi);
-tsi++;
+putchar(ch);
+ch++;
 }
-putchar('\n')
+putchar('\n');
 return 0;
 }
