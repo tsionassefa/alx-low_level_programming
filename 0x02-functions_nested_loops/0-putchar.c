@@ -6,8 +6,8 @@
 int main(void)
 {
 	int i;
-char ft[]="_putchar";
-for (i=1; i <=8; i++)
+char ft[] = "_putchar";
+for (i = 1; i <= 8; i++)
 {
 _putchar(ft[i]);
 }
