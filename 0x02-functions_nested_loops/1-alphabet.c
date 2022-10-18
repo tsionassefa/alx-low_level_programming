@@ -1,4 +1,4 @@
-#include "_putchar"
+#include "main.h"
 /**
  *main- program entry
  *description-display alphabet
