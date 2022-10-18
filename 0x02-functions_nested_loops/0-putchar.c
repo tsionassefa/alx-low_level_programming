@@ -2,15 +2,16 @@
 /**
  *main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 
  */
 int main(void)
+
 {
-	int i;
-char ft[] = "_putchar";
-for (i = 0; i <= 8; i++)
+char sh = "_putchar";
+while (sh)
 {
-_putchar(ft[i]);
+_putchar(sh);
+sh++;
 }
 _putchar('\n');
 return (0);
