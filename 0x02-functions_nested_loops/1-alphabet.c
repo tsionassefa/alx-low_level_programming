@@ -1,17 +1,14 @@
 #include "main.h"
 /**
- *main- program entry
- *description-display alphabet
-(*
- *return- always 0 if successfull
+ *
+ * print_alphabet - a function that prints the alphabet, in lowercase
+ * Return: Always 0 (Succes)
  */
-int main(void)
+int main(void){
+int n;
+for (n = 'a'; n <= 'z'; n++)
 {
-	char f='a';
-	for( f='a'; f<= 'z'; f++)
-	{
-	_putchar(f);
-	}
-	_putchar('\n');
-		return (0);
+_putchar(n);
+}
+_putchar('\n');
 }
