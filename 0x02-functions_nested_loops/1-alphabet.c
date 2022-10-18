@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  *main- program entry
  *description-display alphabet
