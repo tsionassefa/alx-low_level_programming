@@ -6,7 +6,7 @@
 void print_alphabet_x10(void)
 {
 int n, tf;
-co = 0;
+tf = 0;
 while (tf < 10)
 {
 for (n = 'a'; n <= 'z'; n++)
