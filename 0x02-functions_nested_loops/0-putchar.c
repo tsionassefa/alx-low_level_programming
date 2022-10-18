@@ -1,16 +1,16 @@
-#include "_putchar.h"
+#include "main.h"
 /**
- * main- program entry
+ * main-print putchar
  * return- 0 always successful
  */
 int main(void)
 {
-char *ft="_putchar";
-while(*ft)
+	int i;
+char ft[]="_putchar";
+for (i=1; i <=8; i++)
 {
-	_putchar(*ft);
-	*ft++;
+_putchar(ft[i]);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
