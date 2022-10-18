@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * main-entry point
+ *main - Entry point
  *
- *Description: print put char
- * Return- always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i;
 char ft[] = "_putchar";
-for (i = 1; i <= 8; i++)
+for (i = 0; i <= 8; i++)
 {
 _putchar(ft[i]);
 }
