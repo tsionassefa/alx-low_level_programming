@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 /**
  *main- program entry
  *description-display alphabet
 (*
  *return- always 0 if successfull
  */
-void print_alphabet(void)
+int main(void)
 {
 	char f='a';
 	for( f='a'; f<= 'z'; f++)
