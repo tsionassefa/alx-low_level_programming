@@ -5,7 +5,7 @@
 (*
  *return- always 0 if successfull
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char f='a';
 	for( f='a'; f<= 'z'; f++)
