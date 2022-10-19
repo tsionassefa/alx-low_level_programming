@@ -10,7 +10,7 @@ int i = n;
 int x;
 int y;
 
- if (n > '15' && n < '0')
+if (n >= 0 && n <= 14)
 for (x = '0'; x <= i; x++)
 {
 char pr = '0';
