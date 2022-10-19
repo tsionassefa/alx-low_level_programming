@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * entry-program entry
- * Description-display time table
- * main-return 0 always
- */
+  * print_times_table - Prints a multiplication table up to param
+  * @n: The number to be treated
+  * Return: Number matrix
+  */
 void print_times_table(int n)
 {
 char i = n;
