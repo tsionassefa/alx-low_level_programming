@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - check the code.
  *
@@ -8,7 +7,6 @@
 int main(void)
 {
     int r;
-
     r = _isalpha('H');
     _putchar(r + '0');
     r = _isalpha('o');
