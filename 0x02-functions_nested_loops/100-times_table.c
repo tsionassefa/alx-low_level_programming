@@ -22,8 +22,4 @@ _putchar(' ');
 }
 _putchar('\n');
 }
-print_times_table(3);
-print_times_table(5);
-print_times_table(98);
-print_times_table(12);
 }
