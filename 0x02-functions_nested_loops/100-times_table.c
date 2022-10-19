@@ -16,6 +16,9 @@ _putchar(pr);
 for (y = '0'; y < i; y++)
 {
 pr = pr + x;
+_putchar(pr);
+_putchar(',');
+_putchar(' ');
 }
 _putchar('\n');
 }
