@@ -8,11 +8,11 @@ void print_times_table(int n)
 {
 char i = n;
   char x;
+   char y;
 for(x = '0'; x <= i; x++)
 {
 char pr = '0';
 _putchar(pr);
-  char y;
 for(y = '0'; y < i; y++)
 {
 pr = pr + x;
@@ -23,5 +23,4 @@ print_times_table(3);
 print_times_table(5);
 print_times_table(98);
 print_times_table(12);
-return (0);
 }
