@@ -7,11 +7,11 @@
 void print_times_table(int n)
 {
 int i = n;
-for(x = 0; x <= i; x++)
+for(int x = 0; x <= i; x++)
 {
 int pr = 0;
 _putchar("%d", 0)
-for(y = 0; y < i; y++)
+for(int y = 0; y < i; y++)
 {
 pr = pr + x;
 }
