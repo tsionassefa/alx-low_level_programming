@@ -6,9 +6,11 @@
   */
 void print_times_table(int n)
 {
-char i = n;
-char x;
-char y;
+int i = n;
+int x;
+int y;
+
+ if (n > '15' && n < '0')
 for (x = '0'; x <= i; x++)
 {
 char pr = '0';
