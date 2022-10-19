@@ -6,14 +6,14 @@
  */
 void print_times_table(int n)
 {
-int i = n;
-  int x;
+char i = n;
+  char x;
 for(x = 0; x <= i; x++)
 {
-int pr = 0;
-_putchar("%d", 0)
-  int y;
-for(int y = 0; y < i; y++)
+char pr = '0';
+_putchar(pr)
+  char y;
+for(y = 0; y < i; y++)
 {
 pr = pr + x;
 }
