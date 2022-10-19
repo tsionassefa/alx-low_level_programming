@@ -8,12 +8,12 @@ void print_times_table(int n)
 {
 char i = n;
   char x;
-for(x = 0; x <= i; x++)
+for(x = '0'; x <= i; x++)
 {
 char pr = '0';
-_putchar(pr)
+_putchar(pr);
   char y;
-for(y = 0; y < i; y++)
+for(y = '0'; y < i; y++)
 {
 pr = pr + x;
 }
