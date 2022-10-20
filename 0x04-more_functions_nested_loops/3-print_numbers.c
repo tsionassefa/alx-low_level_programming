@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - check the code for to print numbers.
+ *
  * Return: Always 0.
  */
 void print_numbers(void)
