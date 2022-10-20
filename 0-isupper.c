@@ -6,15 +6,8 @@
  */
 int _isupper(int c)
 {
-	int c;
-	c=65; 
-	if (c <= 90)
-	{
-	_putchar("%d", 1);
-	else 
-	{
-	 _putchar("%d", 0);
-	}
-	c++;
-	return (0);
+	if( c = 'A' && c = 'z' )
+		return (1);
+	else
+		return(0);
 }
