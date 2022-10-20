@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _isupper - check the uppercase of leetes.
  * @c: the character to be checked
