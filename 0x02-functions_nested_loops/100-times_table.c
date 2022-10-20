@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * entry-program entry
- * Description-display time table
- * main-return 0 always
- */
+  * print_times_table - Prints a multiplication table up to param
+  * @n: The number to be treated
+  * Return: Number matrix
+  */
 void print_times_table(int n)
 {
-char i = n;
-char x;
-char y;
+int i = n;
+int x;
+int y;
+
+if (n >= 0 && n <= 14)
 for (x = '0'; x <= i; x++)
 {
 char pr = '0';
@@ -22,8 +24,4 @@ _putchar(' ');
 }
 _putchar('\n');
 }
-print_times_table(3);
-print_times_table(5);
-print_times_table(98);
-print_times_table(12);
 }
