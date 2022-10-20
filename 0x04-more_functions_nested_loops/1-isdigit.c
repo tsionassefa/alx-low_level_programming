@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
  * _isdigit - check the code for numbers
  * @c : Integer input
