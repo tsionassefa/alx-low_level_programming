@@ -12,13 +12,13 @@ int main(void)
         printf("Infinite loop incoming :(\n");
 
         i = 0;
-
-        while (i < 10)
-	 /*i < 1 */
-        {
-                putchar(i);
-	       	/*break; */
-        }
+       /*
+        * while (i < 1)
+	*{
+        *	putchar(i);
+	*	break;
+        * }
+	*/
 
         printf("Infinite loop avoided! \\o/\n");
 
