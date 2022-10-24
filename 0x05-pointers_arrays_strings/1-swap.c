@@ -1,6 +1,6 @@
 #include "main.h"
  /**
- * swap_int - check the code.
+ * swap_int - check the code for swap.
  * @a: First variable to be swapped
  * @b: Second variable to be swapped
  * Return: Always 0.
