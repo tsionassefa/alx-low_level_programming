@@ -10,5 +10,5 @@ int t;
 
 for (t = 0; str[t] != 0; t++)
 _putchar(str[t]);
-_putchar('\n');
+_putchar('\n';
 }
