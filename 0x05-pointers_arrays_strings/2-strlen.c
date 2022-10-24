@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * _strlen - check the code for length.
  * @s: Inputted string pointer
@@ -7,7 +7,9 @@
  */
 int _strlen(char *s)
 {
-	s[5] = "tsion";
-	_putchar(" a = %zu \n ", strlen(s));
-	return (0);
+	int m;
+	m = 0;
+	while (s[m] != '\0')
+		i++;
+	return (i);
 }
