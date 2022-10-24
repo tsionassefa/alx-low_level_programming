@@ -1,6 +1,5 @@
 #include "main.h"
- 
-/**
+ /**
  * swap_int - check the code. 
  * @a: First variable to be swapped
  * @b: Second variable to be swapped
@@ -9,6 +8,7 @@
 void swap_int(int *a, int *b)
 {
 	int me;
+
 	me = *a;
 	*a = *b;
 	*b = me;
