@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _puts - check the code to print the string.
  * @str: String to be printed out.
@@ -12,5 +11,5 @@ void _puts(char *str)
 	for (f =0; str[f] != '\0'; f++)
 		_putchar(str[f]);
 
-	_puchar('\n');
+	_putchar('\n');
 }
