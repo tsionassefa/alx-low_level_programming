@@ -1,30 +1,23 @@
 #include "main.h"
 
 /**
- * _strncpy - Copy a string
- * @dest: The destination value
- * @src: The source value
- * @n: The copy limit
- * Return: char value
+ * _strncpy - check the code for Holberton School students.
+ * @dest: Destination string
+ * @src: Input string
+ * @n: Array index restriction
+ * Return: Always 0.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int m = 0, t =0;
+	int j;
 
-	while(src[t])
-	{
-		t++;
-	}
+	for (j = 0; j < n && src[j] != '\0'; j++)
+		dest[j] = src[j];
 
-	while(m < n && src[m])
+	while (j != n)
 	{
-		dest[m] = src[t];
-		m++;
-	}
-	while( m < n)
-	{
-		dest[m] = '\0';
-		m++;
+		dest[j] = '\0';
+		j++;
 	}
 
 	return (dest);
