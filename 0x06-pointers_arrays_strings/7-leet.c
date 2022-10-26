@@ -1,32 +1,29 @@
 #include "main.h"
 
 /**
- * leet - Encodes a string into 1337
- * @s: The string to encode
- * return: The encoded string
+ * leet - encode a string into number.
+ * @str: String to be converted
+ * Return: Always 0.
  */
-char *leet(char *s)
+char *leet(char *str)
 {
-	int a = 0, b = 0, l = 5;
-	char r[5] = {'A', 'E', 'O', 'T', 'L'};
-	char n[5] = {'4', '3', '0', '7', '1'};
+	char num[] = "01347";
+	char upLTR[] = "OLEAT";
+	char lowLTR[] = "oleat";
+	int i, j;
 
-	while (s[a])
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		b = 0;
-
-		while (b < l)
+		for (j = 0; lowLTR[j] != '\0'; j++)
 		{
-		if (s[a] == r[b] || s[a] - 32 == r[b])
+			if (str[i] == upLTR[j] || str[i] == lowLTR[j])
 			{
-				s[a] = n[b];
+				str[i] = num[j];
+				break;
 			}
 
-			b++;
 		}
 
-		a++;
 	}
-
-	return (s);
+	return (str);
 }
