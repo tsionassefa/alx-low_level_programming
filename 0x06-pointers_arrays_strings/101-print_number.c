@@ -1,24 +1,50 @@
 #include "main.h"
 
 /**
- * print_number - Prints any integer with putchar
- * @n: Number to prints
- * Return: Nothing
+ * print_number - print integer
+ * Return: void
+ * @n: number
  */
 void print_number(int n)
 {
-	unsigned int x;
+	unsigned int size = n;
+
+	int digits = 0;
+
+	int i;
 
 	if (n < 0)
+		size = -n;
+	if (n == 0)
+		digits = 1;
+
+	while (size >= 1)
 	{
-		_putchar('-');
-		n *= -1;
+		size = size / 10;
+		digits++;
 	}
 
-	x = n;
+	for (i = 0; i < digits; i++)
+	{
 
-	if (x / 10)
-		print_number(x / 10);
+		int pow = 1;
 
-	_putchar(x % 10 + '0');
+		int j;
+
+		int d;
+
+		for (j = 0; j < digits - i - 1; j++)
+		{
+			pow = pow * 10;
+		}
+
+		d = ((n / pow) % 10);
+		if (n < 0)
+		{
+			d = -d;
+			if (i == 0)
+				_putchar(45);
+		}
+		_putchar(48 + d);
+	}
 }
