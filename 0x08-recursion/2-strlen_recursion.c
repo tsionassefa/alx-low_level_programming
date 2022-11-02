@@ -11,8 +11,8 @@ int _strlen_recursion(char *s)
 
 	m = 0;
 	if (*s == '\0')
-		printf("%d", 0);
-	else 
-		m = 1 + _strlen_recursion(s + 1);
-	return (m);
+		return (0);
 
+	m = 1 + _strlen_recursion(s + 1);
+	return (m);
+}
