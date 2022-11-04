@@ -5,7 +5,7 @@
  * main - multiply 2 numbers passed to main, or Error
  * @argc: argument count
  * @argv: argument vector
- * return: 1 if error, 0 if function runs correctly
+ * Return: 1 if error, 0 if function runs correctly
  */
 
 int main(int argc, char *argv[])
