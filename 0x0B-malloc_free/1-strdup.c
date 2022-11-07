@@ -14,7 +14,7 @@ char *_strdup(char *str)
 	char *a;
 
 	if (str == NULL)
-		return(NULL)
+		return(NULL);
 
 	for (i = 0; i < str[i]; i++)
 	
@@ -26,5 +26,5 @@ char *_strdup(char *str)
 		a[c] = str[c];
 	a[c] = '\0';
 
-	return (NULL)
+	return (NULL);
 }	
