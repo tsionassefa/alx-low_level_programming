@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -7,7 +6,6 @@
  * @str: string to duplicate
  * Return: Pointer to a the new duped string
  */
- 
 char *_strdup(char *str)
 {
 	int i,c;
@@ -16,7 +14,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return(NULL);
 
-	for (i = 0; i < str[i]; i++)
+	for ( i = 0; i < str[i]; i++)
 	
 	a = malloc(i * sizeof(*a)+1);
 	if (a == NULL)
@@ -26,5 +24,5 @@ char *_strdup(char *str)
 		a[c] = str[c];
 	a[c] = '\0';
 
-	return (NULL);
+	return (a);
 }	
