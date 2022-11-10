@@ -1,47 +1,25 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
- *
- * Return: Nothing.
+ * array_range - create an array of integers inclusive of min and max
+ * @min: min value to include
+ * @max: max value to include
+ * Return: pointer to newly created array
  */
-void simple_print_buffer(int *buffer, unsigned int size)
+
+int *array_range(int min, int max)
 {
-    unsigned int i;
+	int *p, i;
 
-    i = 0;
-    while (i < size)
-    {
-        if (i % 10)
-        {
-            printf(" ");
-        }
-        if (!(i % 10) && i)
-        {
-            printf("\n");
-        }
-        printf("0x%02x", buffer[i]);
-        i++;
-    }
-    printf("\n");
-}
+	if (min > max)
+		return (NULL);
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int *a;
+	p = malloc((max - min + 1) * sizeof(*p));
+	if (p == NULL)
+		return (NULL);
 
-    a = array_range(0, 10);
-    simple_print_buffer(a, 11);
-    free(a);
-    return (0);
+	for (i = 0; min <= max; i++, min++)
+		p[i] = min;
+
+	return (p);
 }
